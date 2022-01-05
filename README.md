@@ -23,6 +23,6 @@
 
 ---------------
 
-I plan on using the [Rich Python library](https://github.com/willmcgugan/rich "Rich GitHub repository") for all the U.I. stuff.
+I plan on using the [Rich Python library](https://github.com/willmcgugan/rich "Rich GitHub repository") for all the T.U.I. stuff.
 
 You have some ideas/suggestions/questions, want to collaborate? Contact me please.
