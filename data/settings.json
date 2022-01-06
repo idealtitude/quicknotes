@@ -1,6 +1,6 @@
 {
     "theme": {
-        "foreground": "#ffffff",
-        "background": "#000000"
+        "foreground": "white",
+        "background": "black"
     }
 }

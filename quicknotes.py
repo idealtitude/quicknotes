@@ -30,7 +30,7 @@ _version = None
 with open(f"{APP_PATH}/VERSION", 'r') as vers:
     _version = vers.readline()
 
-__version__ = _version.strip()
+__version__ = str(_version).strip()
 
 # Command line arguments
 def parse_args()->Union[argparse.Namespace, Any]:
@@ -58,7 +58,7 @@ def main()->int:
     if len(sys.argv) == 1:
         appinit = AppInit(APP_PATHS)
         colors = appinit.settings["theme"]
-        mainmenu = MainMenu(colors)
+        mainmenu = MainMenu(__version__, colors)
     else:
         args = parse_args()
 
