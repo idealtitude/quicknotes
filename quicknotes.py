@@ -57,8 +57,7 @@ def parse_args()->Union[argparse.Namespace, Any]:
 def main()->int:
     if len(sys.argv) == 1:
         appinit = AppInit(APP_PATHS)
-        colors = appinit.settings["theme"]
-        mainmenu = MainMenu(__version__, colors)
+        mainmenu = MainMenu()
     else:
         args = parse_args()
 
